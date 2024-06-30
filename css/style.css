@@ -1,0 +1,367 @@
+/* ========== navbar css ============ */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background-color: #222222;
+    opacity: 0.9;
+  }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    outline: none;
+  }
+  .navbar-light .navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+  .navbar-light .navbar-nav .nav-item{
+    padding: 10px 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+  }
+  .navbar-light .navbar-nav .nav-link.active{
+    color:#ffffff;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#111111;
+    background-color: #ffffff;
+    border-radius: 50px;
+  }
+
+/* ============== banner =============== */
+#banner{
+    padding: 160px 0 150px 0;
+    background-image:url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#banner::before{
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right,rgba(34,34,34,1),rgba(34,34,34,0));
+  top: 0;
+  left: 0;
+}
+.banner_text h1{
+    color: #ffffff;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.banner_text p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+.banner_text a {
+  text-decoration: none;
+  color: #222222;
+  padding: 12px 35px;
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-radius: 40px;
+}
+.banner_text a:hover{
+  color: #ffffff;
+  background-color: #222222;
+}
+/* ======== menu =========== */
+#menu{
+  padding: 90px 0 90px 0;
+  background-color: #222222;
+}
+.menu_text h2{
+  color: #ffffff;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+.menu_text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0 145px;
+}
+.menu_item{
+  padding-top: 50px;
+}
+.menu_text2 h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  padding-top: 15px ;
+}
+.menu_text2 p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 5px;
+}
+/* ============== delivery=========== */
+#delivery{
+  background-image: url(../images/freedelivary.jpg);
+  padding: 122px 0 100px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.delivery_text {
+  float: right;
+}
+.delivery_text h2{
+  color: #ffffff;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+.delivery_text p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  padding-right: 30px;
+}
+.delivery_text a{
+text-decoration: none;
+color: #222222;
+padding: 12px 35px;
+font-size: 18px;
+background-color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+border-radius: 40px ;
+padding-top: 10px;
+}
+.delivery_text a:hover{
+  color: #ffffff;
+  background-color: #222222;
+}
+/* =========== Statistics ========== */
+#Statistics{
+  background-color: #222222;
+  padding: 90px 0 100px 0;
+  align-items: center;
+}
+.Statistics_text h2{
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #ffffff;
+}
+.Statistics_text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px 160px;
+}
+.Statistics_item{
+  margin-left: 45px;
+  margin-top: 90px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+.Statistics_item h4{
+  padding-top: 20px ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #ffffff;
+}
+.Statistics_item p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* ============ Discount ============ */
+
+#Discount{
+  background-image: url(../images/discount.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 140px 0 100px 0;
+}
+.Discount_text h4{
+  color: #ffffff;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+.Discount_text p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+.Discount_text a{
+text-decoration: none;
+color: #222222;
+padding: 12px 35px;
+font-size: 18px;
+background-color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+border-radius: 40px ;
+padding-top: 10px;
+}
+.Discount_text a:hover{
+  color: #ffffff;
+  background-color: #222222;
+}
+
+/* ============== Addie ============== */
+#Addie{
+  background-image: url(../images/addi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 140px 0 100px 0;
+  position: relative;
+}
+#Addie::before{ 
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-image:linear-gradient(rgba(34,34,34,1),rgba(34,34,34,1));
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+}
+.Addie_text p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 0 170px;
+}
+.Addie_text h4{
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+/* ============ Subscribe ============ */
+#Subscribe{
+  padding: 100px 0 180px;
+  background-color: #222222;
+}
+.Subscribe_text h4{
+  color: #ffffff;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+.Subscribe_text p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  padding: 0 125px;
+}
+.input-group input{
+  height: 70px;
+  border-radius: 30px;
+}
+.input-group input::placeholder{
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+
+/* =========== footer =========== */
+#footer{
+  padding: 100px 0 5px 0;
+  background-color: #111111;
+}
+.footer_text1 h4{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.footer_text1 p{
+  padding-top: 20px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.icon i{
+  padding: 7px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #111111;
+}
+.footer_text2 h4{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom:20px;
+}
+.footer_text2 a{
+  display: block;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.end{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  font-family: 'Abril Fatface', serif;
+  font-family: 'Montserrat', sans-serif; */
